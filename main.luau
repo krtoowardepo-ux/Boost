@@ -49,14 +49,6 @@ for _, v in next, game:GetDescendants() do
 	end
 end
 
-for _, v in pairs(game:GetService("ReplicatedStorage").Guis:GetDescendants()) do
-    v:Destroy()
-end
-
-for _, a in pairs(game:GetService("ReplicatedStorage").Misc:GetDescendants()) do
-    a:Destroy()
-end
-
 if ToEnable.FullBright then
     local Lighting = game:GetService("Lighting")
     
